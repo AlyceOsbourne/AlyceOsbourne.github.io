@@ -1,8 +1,274 @@
 <!DOCTYPE html>
-<html lang="us">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-adsense-account" content="ca-pub-5376019092983977">
+    <title>Cthulhu Codes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="page-wrapper">
+        <header>
+            <div class="header-content">
+                <img src="/Cthulu.png" alt="Cthulhu Codes Logo" class="header-logo">
+                <h1>Cthulhu Codes</h1>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="hero-img-container">
+                        <div class="ethereal-border"></div>
+                        <img src="/profile_pic.webp" alt="Profile Picture" class="hero-img">
+                    </div>
+                    <div class="hero-badges">
+                        <span class="badge">Game Developer</span>
+                        <span class="badge">Creative Coder</span>
+                        <span class="badge">Digital Artist</span>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h2>Summoning Code and Chaos</h2>
+                    <p class="hero-subtitle">Join Alyce on a journey through eldritch design, surreal systems, and mind-bending mechanics.</p>
+                    <p class="hero-description">Passionate game developer and creative technologist crafting immersive experiences that challenge what's possible. Specialising in experimental gameplay mechanics, procedural generation, and interactive storytelling.</p>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">Rust</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">HTML</span>
+                        <span class="tech-item">CSS</span>
+                        <span class="tech-item">Godot</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <div class="content-grid">
+                <section class="card">
+                    <h2>About</h2>
+                    <div class="about-content">
+                        <div class="about-intro">
+                            <p>I love to code, it itches parts of my brain like nothing else. I also love to teach, watching as students have that illuminating moment is amazing. When programming, I love to push the language to its logical extremes, employing arcane ideas, such as metaprogramming. I love to see where the breaking point is. And I love to boil logic down to its simplest, purest form.</p>
+                            <p>Programming has taught me to love and respect maths. My weaponized Autism and ADHD drive me to dive deep into complex systems and find elegant solutions, it's not just coding, it's how my brain works best.</p>
+                        </div>
+                        
+                        <div class="about-details">
+                            <div class="about-section">
+                                <h3>🎮 Game Development</h3>
+                                <p>Creating immersive experiences that challenge conventional gameplay. From procedural generation to experimental mechanics, I build games that push boundaries and surprise players.</p>
+                            </div>
+                            
+                            <div class="about-section">
+                                <h3>💻 Creative Coding</h3>
+                                <p>Turning ideas into interactive art through code. Specialising in generative systems, data visualisation, and algorithmic creativity that brings the impossible to life.</p>
+                            </div>
+                            
+                            <div class="about-section">
+                                <h3>🎨 Digital Art & Design</h3>
+                                <p>Combining technical skills with artistic vision. Creating visual experiences that are both beautiful and technically innovative.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2>Community</h2>
+                    <div class="community-content">
+                        <div class="community-intro">
+                            <p>Join our growing community of developers, artists, and creative technologists. Share ideas, get feedback, and collaborate on brilliant projects.</p>
+                        </div>
+                        
+                        <div class="community-options">
+                            <div class="community-item">
+                                <div class="community-icon">🎮</div>
+                                <h3>Discord Server</h3>
+                                <p>Connect with fellow developers, share your projects, and get real-time feedback. Our Discord is the heart of our community.</p>
+                                <a href="https://discord.gg/NjHqqbpkew" target="_blank" class="community-button discord-button">
+                                    Join Our Discord
+                                </a>
+                            </div>
+                            
+                            <div class="community-item">
+                                <div class="community-icon">📧</div>
+                                <h3>Newsletter</h3>
+                                <p>Stay updated with the latest tutorials, project updates, and community highlights. No spam, just valuable content delivered straight to your inbox.</p>
+                                <form class="newsletter-form" id="newsletterForm" action="https://docs.google.com/forms/d/e/1FAIpQLSdw6Y4Hu1ElYspHuw8TNL8jqwpRGrEvcVzkyfQ4nbh3V2nXOA/formResponse" target="_self" method="POST">
+                                    <input type="hidden" name="fvv" value="1">
+                                    <input type="hidden" name="fbzx" value="-7312010344366120671">
+                                    <input type="hidden" name="pageHistory" value="0">
+                                    <input type="hidden" name="submit" value="Submit">
+                                    
+                                    <div class="newsletter-signup">
+                                        <input type="email" id="259943353" name="entry.259943353" placeholder="Enter your email" class="newsletter-input" required>
+                                        <button type="submit" class="newsletter-button">Subscribe</button>
+                                    </div>
+                                </form>
+                                
+                                <div id="newsletter-success" class="newsletter-success" style="display: none;">
+                                    <div class="success-icon">📜</div>
+                                    <h4>Summoning Successful!</h4>
+                                    <p>Your email has been bound to our eldritch newsletter. Prepare for arcane knowledge and forbidden wisdom to manifest in your inbox!</p>
+                                    <p class="success-subtitle">*No tentacles were harmed in this process*</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2>Contact</h2>
+                    <div class="contact-content">
+                        <div class="contact-intro">
+                            <p>Ready to collaborate on something extraordinary? Let's discuss your project and bring your ideas to life.</p>
+                        </div>
+                        
+                        <form class="contact-form" id="bootstrapForm" action="https://docs.google.com/forms/d/e/1FAIpQLSf9L5nVkSnCJ-ZzKB3G6N5p_6S7h5LZ1x6qVUo7S4ddJDIQWQ/formResponse" target="_self" method="POST">
+                            <input type="hidden" name="fvv" value="1">
+                            <input type="hidden" name="fbzx" value="-707925106522772194">
+                            <input type="hidden" name="pageHistory" value="0">
+                            <input type="hidden" name="submit" value="Submit">
+                            
+                            <div class="form-group">
+                                <label for="1480924869">Name</label>
+                                <input type="text" id="1480924869" name="entry.1480924869" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="1269459009">Email</label>
+                                <input type="email" id="1269459009" name="entry.1269459009" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="538123958">Subject</label>
+                                <select id="538123958" name="entry.538123958" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="Project Inquiry">Project Inquiry</option>
+                                    <option value="Collaboration">Collaboration</option>
+                                    <option value="Consultation">Consultation</option>
+                                    <option value="General Question">General Question</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="191417708">Message</label>
+                                <textarea id="191417708" name="entry.191417708" rows="5" required placeholder="Tell me about your project or idea..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="contact-submit">Send Message</button>
+                        </form>
+                        
+                        <div id="form-success" class="form-success" style="display: none;">
+                            <div class="success-icon">🐙</div>
+                            <h3>Message Successfully Summoned!</h3>
+                            <p>Your message has been cast into the void and will be received by the ancient ones. I'll emerge from the depths to respond soon!</p>
+                            <p class="success-subtitle">*The cosmic forces are now processing your request*</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Cthulhu Codes. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <iframe name="hidden-iframe" id="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        $(document).ready(function() {
+            $('#bootstrapForm').submit(function(event) {
+                event.preventDefault();
+                
+                $('.contact-submit').text('Sending...').prop('disabled', true);
+                
+                var formData = new FormData(this);
+                
+                var data = {};
+                formData.forEach(function(value, key) {
+                    data[key] = value;
+                });
+                
+                fetch(this.action, {
+                    method: 'POST',
+                    body: new URLSearchParams(data),
+                    mode: 'no-cors'
+                })
+                .then(function() {
+                    $('#bootstrapForm').hide();
+                    $('#form-success').show();
+                    
+                    setTimeout(function() {
+                        $('#bootstrapForm')[0].reset();
+                        $('#bootstrapForm').show();
+                        $('#form-success').hide();
+                        $('.contact-submit').text('Send Message').prop('disabled', false);
+                    }, 10000);
+                })
+                .catch(function(error) {
+                    console.log('Form submitted (Google Forms always returns an error due to CORS, but submission works)');
+                    
+                    $('#bootstrapForm').hide();
+                    $('#form-success').show();
+                    
+                    setTimeout(function() {
+                        $('#bootstrapForm')[0].reset();
+                        $('#bootstrapForm').show();
+                        $('#form-success').hide();
+                        $('.contact-submit').text('Send Message').prop('disabled', false);
+                    }, 10000);
+                });
+            });
+
+            $('#newsletterForm').submit(function(event) {
+                event.preventDefault();
+                
+                $('.newsletter-button').text('Subscribing...').prop('disabled', true);
+                
+                var formData = new FormData(this);
+                
+                var data = {};
+                formData.forEach(function(value, key) {
+                    data[key] = value;
+                });
+                
+                fetch(this.action, {
+                    method: 'POST',
+                    body: new URLSearchParams(data),
+                    mode: 'no-cors'
+                })
+                .then(function() {
+                    $('#newsletterForm').hide();
+                    $('#newsletter-success').show();
+                    
+                    setTimeout(function() {
+                        $('#newsletterForm')[0].reset();
+                        $('#newsletterForm').show();
+                        $('#newsletter-success').hide();
+                        $('.newsletter-button').text('Subscribe').prop('disabled', false);
+                    }, 10000);
+                })
+                .catch(function(error) {
+                    console.log('Newsletter submitted (Google Forms always returns an error due to CORS, but submission works)');
+                    
+                    $('#newsletterForm').hide();
+                    $('#newsletter-success').show();
+                    
+                    setTimeout(function() {
+                        $('#newsletterForm')[0].reset();
+                        $('#newsletterForm').show();
+                        $('#newsletter-success').hide();
+                        $('.newsletter-button').text('Subscribe').prop('disabled', false);
+                    }, 10000);
+                });
+            });
+        });
+    </script>
 </body>
+</html>
